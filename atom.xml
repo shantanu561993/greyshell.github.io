@@ -4,7 +4,7 @@
   <title><![CDATA[Greyshell's Diary]]></title>
   <link href="http://greyshell.github.io/atom.xml" rel="self"/>
   <link href="http://greyshell.github.io/"/>
-  <updated>2017-06-15T08:20:35-07:00</updated>
+  <updated>2017-07-29T13:45:49-07:00</updated>
   <id>http://greyshell.github.io/</id>
   <author>
     <name><![CDATA[Abhijit S]]></name>
@@ -1173,9 +1173,7 @@
 
 <h2>Conclusion</h2>
 
-<p>At the end of my journey, I found my final exploit code was turned out entirely different from <strong><em>muts</em></strong>.</p>
-
-<p>The reason was, I dealt with two other challenges - <code>ASLR</code> and position of final payload. In this particular release (<code>B.07.53</code>), application puts a limit on the length of <code>POST</code> data.</p>
+<p>At the end of my journey, I found my final exploit code was turned out entirely different from <strong><em>muts</em></strong>. The reason was, in this <code>B.07.53</code> release, application validates the length of <code>POST</code> data. So I figured out another way to deliver the payload.</p>
 
 <h2>References</h2>
 
