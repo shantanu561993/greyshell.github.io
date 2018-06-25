@@ -62,8 +62,10 @@
 <time class='entry-date' datetime='2016-12-31T10:25:00-08:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>31</span><span class='date-suffix'>st</span>, <span class='date-year'>2016</span></span> <span class='time'>10:25 am</span></time></p>
   </header>
   
-  <script language="JavaScript">
-<!--
+  <!-- add pdf scrole feature -->
+
+
+<script language="JavaScript">
 function autoResize(id){
     var newheight;
     var newwidth;
@@ -76,13 +78,17 @@ function autoResize(id){
     document.getElementById(id).height = (newheight) + "px";
     document.getElementById(id).width = (newwidth) + "px";
 }
-//-->
 </script>
 
 
 
 
+<!-- embed resume -->
+
+
 <iframe src="abhijit_sinha_resume.pdf" width="100%" height="1190px" id="iframe1" marginheight="0" frameborder="0" onLoad="autoResize('iframe1');"></iframe>
+
+
 
 
   
@@ -160,6 +166,10 @@ function autoResize(id){
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2018/02/28/bear-notes/">Bear Notes</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/11/07/hpnmm-exploit/">HP OpenView NNM - B.07.53 SEH Bypass</a>
